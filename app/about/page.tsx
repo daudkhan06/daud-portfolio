@@ -32,6 +32,13 @@ export default function About() {
           work experience in retail and tutoring has helped me develop
           communication, problem-solving and time management skills.
         </p>
+        <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-300">
+          Beyond computer science, I have experience tutoring Maths and English at
+          Kumon UK, helping students improve confidence and understanding across
+          different age groups. I have also worked as a Retail Assistant at The
+          Entertainer, developing communication, teamwork and customer service skills
+          in a fast-paced environment.
+        </p>
       </section>
 
       <section className="mt-16 grid gap-6 md:grid-cols-3">
