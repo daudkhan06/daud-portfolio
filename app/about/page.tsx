@@ -23,14 +23,8 @@ export default function About() {
         </p>
 
         <h1 className="mt-4 text-5xl font-bold">
-          Computer Science student building practical software skills.
+          Building practical software skills.
         </h1>
-
-        <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
-          I’m Daud Khan, a BSc Computer Science student at the University of
-          Manchester. I’m interested in software engineering, full-stack
-          development, databases, APIs and building useful web applications.
-        </p>
 
         <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-300">
           Through my projects, I’ve worked with TypeScript, JavaScript,
