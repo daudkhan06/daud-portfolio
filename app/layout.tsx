@@ -19,10 +19,33 @@ export default function RootLayout({
             <h1 className="text-xl font-bold">Daud Khan</h1>
 
             <div className="flex gap-6">
-              <Link href="/">Home</Link>
-              <Link href="/about">About</Link>
-              <Link href="/projects">Projects</Link>
-              <Link href="/contact">Contact</Link>
+              <Link
+                href="/"
+                className="transition-all duration-300 hover:scale-105 hover:text-cyan-400"
+              >
+                Home
+              </Link>
+
+              <Link
+                href="/about"
+                className="transition-all duration-300 hover:scale-105 hover:text-cyan-400"
+              >
+                About
+              </Link>
+
+              <Link
+                href="/projects"
+                className="transition-all duration-300 hover:scale-105 hover:text-cyan-400"
+              >
+                Projects
+              </Link>
+
+              <Link
+                href="/contact"
+                className="transition-all duration-300 hover:scale-105 hover:text-cyan-400"
+              >
+                Contact
+              </Link>
             </div>
           </div>
         </nav>
