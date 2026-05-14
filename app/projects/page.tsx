@@ -20,7 +20,7 @@ export default function Projects() {
         {projects.map((project) => (
           <div
             key={project.title}
-            className="rounded-2xl border border-slate-800 bg-slate-900 p-6"
+            className="rounded-2xl border border-slate-800 bg-slate-900 p-6 bg-slate-900 hover:bg-slate-800 transition-all duration-300 hover:scale-105"
           >
             <h2 className="text-2xl font-semibold">
               {project.title}
