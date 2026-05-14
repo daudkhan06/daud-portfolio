@@ -16,7 +16,7 @@ export default function Home() {
         <a
           href="/Daud-Khan-CV.pdf"
           download
-          className="rounded-xl bg-cyan-400 px-6 py-3 font-semibold text-slate-950"
+          className="rounded-xl bg-cyan-400 px-6 py-3 font-semibold text-slate-950 hover:scale-105"
         >
           Download CV
         </a>
@@ -24,7 +24,7 @@ export default function Home() {
         <a
           href="https://github.com/daudkhan06"
           target="_blank"
-          className="rounded-xl border border-slate-700 px-6 py-3"
+          className="rounded-xl border border-slate-700 px-6 py-3 hover:scale-105"
         >
           GitHub
         </a>
