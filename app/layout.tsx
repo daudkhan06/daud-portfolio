@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-slate-950 text-white">
+      <body className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-cyan-950/20 text-white">
         <nav className="border-b border-slate-800">
           <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
             <h1 className="text-xl font-bold">Daud Khan</h1>
